@@ -41,6 +41,8 @@ services:
     user: '5050'
     networks:
     - chat-network
+    logging:
+      driver: 'none'
 
 networks:
   chat-network:
